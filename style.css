@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai';
+    overflow: hidden;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.title{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;   
+}
+
+.col{
+    width: 1000px;
+    /* height: 100px; */
+    /* border: 2px solid red; */
+    /* margin: 10px auto; */
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+label{
+    font-size: 25px;
+}
+input{
+    height: 50px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: transparent;
+    border-radius: 6px;
+    /* display: block; */
+    text-align: center;
+    font-size: 25px;
+}
+
+@media(max-width:618px){
+    .main{
+        width: 100%;
+        height: 100vh;
+        background: url('bg2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+    .title{
+        font-size: 1.9rem; 
+        margin-top: 5px; 
+    }
+    .col div{
+        width: 100px;
+        text-align: center;
+    }
+    label{
+        font-size: 20px;
+    }
+    input{
+        height: 50px;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
